@@ -19,7 +19,7 @@
     PROBLEM 1: Reassign the variable "likePizza" to true or false depending on your preference.  Create a conditional statement that prints to the console "I like to eat pizza!" only if you assigned that variable a value of true.
     */
     likePizza = true
-    if (likePizza === true) {
+    if (likePizza) {
       console.log("I like to eat pizza!")
     }
 
@@ -27,7 +27,7 @@
     PROBLEM 2: Reassign the variable "likeGrasshoppers" to true or false depending on your preference.  Create a conditional statement that prints to the console "I don't like to eat grasshoppers!" only if you assigned that variable a value of false.
     */
     likeGrasshoppers = true
-    if (likeGrasshoppers === true) {
+    if (likeGrasshoppers) {
       console.log("I don't like to eat grasshoppers")
     }
 
@@ -35,14 +35,14 @@
    PROBLEM 3: Reassign the variable "likeRamen" to true or false depending on your preference.  Create a conditional statement that prints to the console "Ramen for everyone!" whether or not you like it. (Hint you will have to include an "OR" operator in your conditional statement that separates two operands)
    */
     likeRamen = true
-    if (likeRamen === true) {
+    if (likeRamen || !likeRamen) {
       console.log("Ramen for everyone!")
     }
 
     /*
     PROBLEM 4: Create a conditional statement that prints to the console "I like all foods!" only if all your variables are set to true.  (Hint you will have to include an "AND" operator in your conditional statement that separates three operands)
     */
-    if ((likePizza && likeGrasshoppers && likeRamen) === true) {
+    if ((likePizza && likeGrasshoppers && likeRamen)) {
       console.log("I like food!")
     }
 
@@ -50,7 +50,7 @@
     PROBLEM 5 (DEBUGGING): The following snippet throws a ReferenceError.  Fix the mistake so that the console prints: "I like seafood!"
     */
     let likeSeafood = true
-    if (likeSeafood === true) {
+    if (likeSeafood) {
       console.log("I like seafood!")
     }
 
